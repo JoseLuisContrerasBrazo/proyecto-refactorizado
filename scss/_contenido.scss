@@ -1,0 +1,104 @@
+/* Estilos generales */
+body {
+    background-color: $color-fondo;
+    color: $color-texto;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    padding: 20px 40px;
+    min-height: 60vh;
+}
+
+.caja-contenido,
+#bienvenida {
+    background-color: $color-blanco;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    color: $color-primario;
+    border-bottom: 2px solid $color-primario;
+    padding-bottom: 5px;
+}
+
+p {
+    line-height: 1.6;
+}
+
+.texto-intro {
+    font-size: 1.1em;
+}
+
+#proyectos-destacados {
+    margin-top: 30px;
+
+    h3 {
+        color: $color-texto;
+    }
+}
+
+.proyectos-vacios {
+    background-color: #eee;
+    border: 1px dashed #ccc;
+    padding: 40px;
+    text-align: center;
+    color: #777;
+    @include flex-center;
+}
+
+.titulo-habilidades {
+    color: #555;
+    margin-top: 30px;
+}
+
+.lista-habilidades {
+    list-style: square;
+    padding-left: 20px;
+
+    li {
+        margin-bottom: 10px;
+        font-weight: bold;
+    }
+}
+
+/* Formulario de contacto */
+.campo-formulario {
+    margin-bottom: 15px;
+
+    label {
+        display: block;
+        margin-bottom: 5px;
+    }
+
+    input,
+    textarea {
+        width: 100%;
+        padding: 10px;
+        box-sizing: border-box;
+        border: 1px solid #ccc;
+        font-family: Arial, sans-serif;
+    }
+}
+
+/* Pie de página */
+footer {
+    background-color: $color-footer;
+    color: $color-texto-footer;
+    padding: 20px 40px;
+    text-align: center;
+    margin-top: 20px;
+
+    p {
+        margin: 0;
+    }
+
+    .copy-peq {
+        margin: 5px 0 0 0;
+        font-size: 0.9em;
+    }
+}

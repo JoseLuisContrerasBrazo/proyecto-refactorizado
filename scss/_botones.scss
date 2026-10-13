@@ -1,0 +1,12 @@
+/* Botón del formulario */
+button {
+    background-color: $color-primario;
+    color: $color-blanco;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: $color-secundario;
+}
